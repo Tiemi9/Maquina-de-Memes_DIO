@@ -1,7 +1,8 @@
 # Máquina de Memes 🤓🥴🤣
 
 > Evento da DIO para criar um gerador de memes.
-![preview]('./.github/Preview.png)
+
+![preview](./.github/Preview.png)
 
 ## 🛸 Tecnologias utilizadas:
     - HTML,
