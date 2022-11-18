@@ -49,10 +49,10 @@ body {
 
 #display-image {
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     /* background-image: url('../img/gato-contorcionista.jpg'); */  
     background-position: center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

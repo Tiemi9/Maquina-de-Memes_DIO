@@ -6,7 +6,9 @@ function enablePhotoUpload() {
         reader.addEventListener("load", () => {
             
             const uploadImage = reader.result
-            document.querySelector('#display-image').style.backgroundImage = `url(${uploadImage})`
+
+            changeMemePicture(uploadImage)
+            //document.querySelector('#display-image').style.backgroundImage = `url(${uploadImage})`
         })
         reader.readAsDataURL(this.files[0])
     })
@@ -51,12 +53,16 @@ async function mapImageList() {
             "path": "img/gato-safado.jpg"
         },
         {
-            "name": "Gato Sorrindo",
-            "path": "img/gato-sorrindo.jpg"
+            "name": "Gato Banhista",
+            "path": "img/gato-banhista.jpg"
         },
         {
             "name": "Gato Tímido",
             "path": "img/gato-timido.jpg"
+        },
+        {
+            "name": "Gato Zangado",
+            "path": "img/gato-zangado.jpg"
         }
     ]
     return memesObject
