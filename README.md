@@ -10,6 +10,8 @@
     - JavaScript,
     - Git e Github.
 
+[Teste você também, crie o seu próprio Meme clicando aqui! 👈](https://tiemi9.github.io/Maquina-de-Memes_DIO/)
+
 ## 🤳 Contato
 
 [Me econtre no Linkedin 🔗](https://www.linkedin.com/in/cristiemim9/)
