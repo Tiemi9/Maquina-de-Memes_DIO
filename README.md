@@ -2,7 +2,7 @@
 
 > Evento da DIO para criar um gerador de memes.
 
-![preview](./.github/Preview.png)
+![preview](./.github/preview_.png)
 
 ## 🛸 Tecnologias utilizadas:
     - HTML,
