@@ -58,9 +58,15 @@ async function creatGallery(imageList) {
     });
 }
 
+async function changeMemePicture(photo) {
+    let displayImage = document.querySelector('#display-image')
+    displayImage.style.backgroundImage = `url('${photo}')`
+}
+
 async function main() {
     const memesImageList = await mapImageList()
     await creatGallery(memesImageList)
+    await changeMemePicture(memesImageList[0].path)
 }
 
 main();
