@@ -2,7 +2,11 @@
 
 > Evento da DIO para criar um gerador de memes.
 
+- Esse é o layout da página:<br>
 ![preview](./.github/preview_.png)
+
+- Como fica o meme após o download:<br>
+![preview](./.github/memeFelipe.png)
 
 ## 🛸 Tecnologias utilizadas:
     - HTML,
