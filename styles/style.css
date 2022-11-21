@@ -102,3 +102,15 @@ textarea{
 #image-input {
     font-size: .7rem;
 }
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-size: cover;
+    }
+    .app {
+        width: fit-content;
+    }
+}
